@@ -1,0 +1,18 @@
+﻿---
+ID: "779720ae-79e2-444f-8781-27518f709747"
+Parent: "a6a0f108-feea-459b-afd6-9b337acd984f"
+Template: "a6a0f108-feea-459b-afd6-9b337acd984f"
+Path: /sitecore/templates/Feature/Recommended/RecommendedPagesRenderingParameters/__Standard Values
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20181128T122422Z
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\admin

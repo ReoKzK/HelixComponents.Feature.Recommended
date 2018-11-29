@@ -1,0 +1,23 @@
+﻿@model HelixComponents.Feature.Recommended.ViewModels.RecommendedPagesViewModel
+
+<div class="recommended-pages">
+    <h2>@Model.Title</h2>
+    <div class="recommended-pages-content">
+
+        @foreach (var contentCard in Model.Cards)
+        {
+            <div class="card">
+                <a href="@contentCard.">
+                    @contentCard.Image
+                </a>
+                <div class="card-content">
+                    <p class="card-body">@contentCard.Title</p>
+                    <p>@contentCard.Body</p>
+                    <a href="@contentCard.Url">
+                        @contentCard.CallToActionText
+                    </a>
+                </div>
+            </div>
+        }
+    </div>
+</div>
